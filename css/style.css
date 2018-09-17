@@ -1,0 +1,155 @@
+
+header{
+		background-color: #EBEBEB;
+		padding: 5px 0;
+	
+	
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.pro{
+	text-align: center;
+	font-size: 70px;
+}
+.header-area.sticky {
+		position: relative;
+	}
+
+.nav-item{
+	padding-left: 0px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.navbar-brand{
+	
+	margin-right:150px
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.header-area.sticky .navbar-light{
+    background-color: #E0E0E0;
+}
+
+.back-to-top { 
+    text-align: center; 
+    background: rgba(0,0,0,0.40); 
+    color: #fff; 
+    display: none; 
+    width: 40px; height: 40px; line-height: 40px; 
+    font-family: "FontAwesome";
+    font-size: 35px; 
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    -webkit-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+    cursor: pointer; 
+    z-index: 9999; 
+}
+.back-to-top:hover { 
+    opacity: 1; 
+}
+.back-to-top:before{
+    content: "\f062";
+}
+
+.owl-carousel .owl-item img{
+	width: inherit;
+}
+
+.app-carousel h4{
+	color: #F54F15;
+	font-weight: 600;
+}
+
+.app-carousel h5{
+	color: #000000;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+
+.edu{
+	text-align: center;
+	
+}
+
+.programa{
+	
+	padding-top: 30px;
+	padding-left: 160px;
+}
+
+.programa1{
+	padding-top: 90px;
+	padding-left: 200px;
+}
+
+
+
+
+
+footer{
+	background-color: #161D56;
+	color: #FFFFFF;
+	padding: 5% 0px;
+	text-align: center;
+}
+
+footer p a{
+	color: #f54f15;
+	font-weight: 400;
+}
+
+footer p a:hover{
+	color: #f54f15
+}
+
+.redes{
+	margin-top: 45px;
+	margin-bottom: 45;
+}
+
+.redes a{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.redes li{
+	display: inline-block
+}
+
+.redes a:hover{
+	background-color: aliceblue;
+	color:#252525;
+	transition: all ease 0.3s;
+}
+
+.marca{
+	padding-bottom: 40px;
+}
+#contacto{
+	margin: 0px;
+	padding: 0px;
+	
+}
